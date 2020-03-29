@@ -11,7 +11,7 @@ module CustomScope
         }]
 
         migration_files.each do |migration_file|
-          copy_file "#{migration_file[:new_file_name]}.rb", "db/migrate/#{timestamp}_#{migration_file[:new_file_name]}.rb"
+          copy_file "#{migration_file[:origin_file_name]}.rb", "db/migrate/#{timestamp}_#{migration_file[:new_file_name]}.rb"
           timestamp += 1
         end
       end
