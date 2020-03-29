@@ -1,6 +1,5 @@
-lib = File.expand_path("../lib", __FILE__)
-# $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require_relative "custom_scope/versions"
+$LOAD_PATH.push File.expand_path('../lib', __FILE__)
+require 'custom_scope/version'
 
 Gem::Specification.new do |s|
   s.name = 'AA_Custom_scope_gem'
