@@ -1,7 +1,7 @@
 module CustomScope
   module Generators
     class InstallGenerator < Rails::Generators::Base
-      source_root File.expand_path('../../templates', __FILE__)
+      source_root File.expand_path('../templates', __FILE__)
 
       def copy_migration
         timestamp = Time.now.utc.strftime('%Y%m%d%H%M%S').to_i
