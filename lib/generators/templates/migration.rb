@@ -1,6 +1,6 @@
-class CreateCSScope < ActiveRecord::Migration
+class CreateMyCustomScope < ActiveRecord::Migration
   def self.up
-    create_table :cs_scope do |t|
+    create_table :my_custom_scopes do |t|
       t.string :scope_name
       t.timestamps
     end
