@@ -7,7 +7,7 @@ module CustomScope
         timestamp = Time.now.utc.strftime('%Y%m%d%H%M%S').to_i
 
         migration_files = [{
-          new_file_name: 'create_default_scope', origin_file_name: 'migration'
+          new_file_name: 'create_custom_scope', origin_file_name: 'migration'
         }]
 
         migration_files.each do |migration_file|
