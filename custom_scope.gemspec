@@ -7,4 +7,6 @@ Gem::Specification.new do |s|
     "lib/custom_scope.rb"
   ]
   s.require_paths = ["lib"]
+
+  s.add_dependency('rails', '~> 5.1')
 end
