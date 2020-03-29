@@ -1,6 +1,6 @@
 lib = File.expand_path("../lib", __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "protectify/version"
+# $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+# require "protectify/version"
 
 Gem::Specification.new do |s|
   s.name = 'AA_Custom_scope_gem'
