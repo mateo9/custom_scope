@@ -1,4 +1,4 @@
-require 'survey/version'
+require 'custom_scope/version'
 
 module CustomScope
   def welcome
