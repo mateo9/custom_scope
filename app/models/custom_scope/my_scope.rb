@@ -1,5 +1,5 @@
-class CustomScope::MyScope
-  self.table_name = 'my_custom_scope'
+class CS::Scope
+  self.table_name = 'cs_scope'
 
   validates :name
 end
