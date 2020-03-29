@@ -1,4 +1,4 @@
-require "custom_scope/app/models/custom_scope/my_scope.rb"
+require 'survey/version'
 
 module CustomScope
   def welcome
